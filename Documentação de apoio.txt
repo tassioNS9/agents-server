@@ -1,0 +1,26 @@
+npm init -y --> criar arquivo package.json
+
+npm i typescript @types/node -D
+
+npx tsc --init
+
+Arquivo tsconfig pego pelo github na versao 22
+
+OBS: foi adicionado o noEmit:true, permite que só usamos o typescrit para checagem de tipos e não banding ( Não fazemos o build), converter o typescript para javascript,pois 
+não é mais necessário a partir do node20
+
+"allowImportingTsExtensions": true, ==> permite que nós fazemos importação de arquivos typescript
+
+"type": "module", no packgage-json --> Permite que podemos fazer importação usando o ecamiscript modules e nao commjs
+
+npm i fastify @fastify/cors fastify-type-provider-zod zod
+
+   No packgage-json  "dev": "node --experimental-strip-types no-warnings src/server.ts" --> para rodar o backend
+
+Docker para usar o banco de dados Postgresql
+Baixar a  imagem no dockerhub pgvector para IA busca por similaridade
+docker componse up -d --> comando para executar o docker-compose
+
+npm i postgres
+npm i drizzle-orm --> 
+npm i drizzle-kit -D
