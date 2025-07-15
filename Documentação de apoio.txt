@@ -24,3 +24,13 @@ docker componse up -d --> comando para executar o docker-compose
 npm i postgres
 npm i drizzle-orm --> 
 npm i drizzle-kit -D
+
+npx drizzle-kit generate --> Para criar as tabelas no banco
+
+
+npx drizzle-kit migrate --> Para rodar a migration e popular a tabela 
+npx drizzle-kit studio --> visualizar banco
+
+npm i drizzle-seed -D --> instalar o Seed como ferramente de desenvolvimento
+
+npm run db:seed ==> para rodar o seed e popular o banco com dados
