@@ -34,3 +34,5 @@ npx drizzle-kit studio --> visualizar banco
 npm i drizzle-seed -D --> instalar o Seed como ferramente de desenvolvimento
 
 npm run db:seed ==> para rodar o seed e popular o banco com dados
+
+npm i @fastify/multipart --> para trabalhar com dados de tipo de arquivo
