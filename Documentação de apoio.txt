@@ -36,3 +36,5 @@ npm i drizzle-seed -D --> instalar o Seed como ferramente de desenvolvimento
 npm run db:seed ==> para rodar o seed e popular o banco com dados
 
 npm i @fastify/multipart --> para trabalhar com dados de tipo de arquivo
+
+npm i @google/genai --> Instalação da Gemini do Google (IA)
