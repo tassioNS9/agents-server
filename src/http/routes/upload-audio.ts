@@ -22,6 +22,7 @@ export const uploadAudioRoute: FastifyPluginCallbackZod = (app) => {
         throw new Error("Audio is required.");
       }
 
+      // Acumula em memoria todo conteúdo do arquivo
       const audioBuffer = await audio.toBuffer();
       const audioAsBase64 = audioBuffer.toString("base64");
 
@@ -45,7 +46,6 @@ export const uploadAudioRoute: FastifyPluginCallbackZod = (app) => {
       if (!chunk) {
         throw new Error("Erro ao salvar chunk de áudio");
       }
-
       return reply.status(201).send({ chunkId: chunk.id });
     }
   );

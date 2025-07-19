@@ -15,6 +15,27 @@
       "when": 1752617961877,
       "tag": "0001_violet_logan",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752937176815,
+      "tag": "0002_equal_skin",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752937605568,
+      "tag": "0003_cultured_micromax",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1752937703674,
+      "tag": "0004_workable_ultimo",
+      "breakpoints": true
     }
   ]
 }

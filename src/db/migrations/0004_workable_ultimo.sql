@@ -1,0 +1,1 @@
+ALTER TABLE "audio_chunks" ADD COLUMN "embeddings" vector(768) NOT NULL;
